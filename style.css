@@ -548,29 +548,6 @@ footer {
   font-size: 16px;
 }
 
-.footer-navigation {
-  flex: 1;
-  text-align: center;
-}
-
-.footer-navigation ul {
-  display: flex;
-  justify-content: center;
-  gap: 15px;
-  list-style: none;
-  padding: 0;
-}
-
-.footer-navigation a {
-  text-decoration: none;
-  color: #ccc;
-  font-size: 16px;
-}
-
-.footer-navigation a:hover {
-  color: #fff;
-}
-
 .footer-social {
   margin-top: 20px;
   text-align: right;
@@ -617,4 +594,5 @@ footer {
     display: flex;
     justify-content: center;
   }
+
 }
