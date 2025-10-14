@@ -520,7 +520,6 @@ footer {
   color: #ccc;
   padding: 40px 20px 20px 20px;
   font-size: 14px;
-  width: 100%;
   text-align: center;
   border-top: 1px solid #333;
 }
@@ -597,5 +596,6 @@ footer {
   }
 
 }
+
 
 
