@@ -522,6 +522,7 @@ footer {
   font-size: 14px;
   width: 100%;
   text-align: center;
+  border-top: 1px solid #333;
 }
 
 .footer-container {
@@ -596,4 +597,5 @@ footer {
   }
 
 }
+
 
