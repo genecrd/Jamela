@@ -516,7 +516,7 @@ textarea {
 
 /* Footer */
 footer {
-  background-color: #1a1a1a;
+  background-color: transparent;
   color: #ccc;
   padding: 40px 20px 20px 20px;
   font-size: 14px;
@@ -596,3 +596,4 @@ footer {
   }
 
 }
+
