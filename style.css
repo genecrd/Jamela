@@ -228,22 +228,22 @@ section {
 
 .skills-container {
   display: grid;
-  grid-template-columns: repeat(3, 1fr); /* 3 columns */
+  grid-template-columns: repeat(3, 1fr); 
   gap: 20px;
   justify-items: center;
   padding: 20px;
 }
 
 .skill {
-  width: 250px; /* Increased size */
-  height: 250px; /* Increased height */
+  width: 250px; 
+  height: 250px; 
   background-color: #333;
   border-radius: 10px;
   padding: 20px;
   display: flex;
   flex-direction: column;
-  justify-content: center; /* Center vertically */
-  align-items: center; /* Center horizontally */
+  justify-content: center; 
+  align-items: center; 
   text-align: center;
 }
 
@@ -256,7 +256,7 @@ section {
 }
 
 .skill-icon {
-  font-size: 50px; /* Increased icon size */
+  font-size: 50px;
   margin-bottom: 10px;
 }
 
@@ -275,7 +275,7 @@ label {
 
 .progress-bar {
   height: 20px;
-  background-color: #4CAF50; /* Green color */
+  background-color: #4CAF50;
   border-radius: 8px;
 }
 
@@ -283,31 +283,31 @@ label {
   font-size: 14px;
   font-weight: bold;
   color: white;
-  margin-top: 5px; /* Space between progress bar and percentage */
+  margin-top: 5px; 
 }
 
 #html {
-  background-color: #E44D26; /* HTML color */
+  background-color: #E44D26;
 }
 
 #css {
-  background-color: #1572B6; /* CSS color */
+  background-color: #1572B6;
 }
 
 #python {
-  background-color: #306998; /* Python color */
+  background-color: #306998; 
 }
 
 #word {
-  background-color: #2F4F4F; /* Microsoft Word color */
+  background-color: #2F4F4F; 
 }
 
 #listening {
-  background-color: #FFA500; /* Listening color */
+  background-color: #FFA500; 
 }
 
 #communication {
-  background-color: #32CD32; /* Communication color */
+  background-color: #32CD32; 
 }
 
 
@@ -418,25 +418,24 @@ label {
   font-size: 1.1rem;
 }
 
-/* Message Box Styling */
 .message-box {
   flex: 1;
   padding: 20px;
   background-color: transparent;
   border-radius: 8px;
   box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
-  max-width: 500px; /* Limit the width to make it smaller */
-  width: 100%; /* Ensure the box adjusts based on screen size */
+  max-width: 500px; 
+  width: 100%; 
 }
 
 .message-box h2 {
-  font-size: 20px; /* Slightly smaller font size */
+  font-size: 20px;
   margin-bottom: 15px;
   text-align: center;
 }
 
 .form-group {
-  margin-bottom: 10px; /* Reduced margin to compact the form */
+  margin-bottom: 10px; 
 }
 
 .form-group label {
@@ -490,17 +489,15 @@ textarea {
 }
 
 .social-icons img {
-  width: 30px; /* Make the icons smaller */
+  width: 30px; 
   height: auto;
   transition: transform 0.3s;
 }
 
-/* Hover Effect for Icons */
 .social-icons img:hover {
   transform: scale(1.1);
 }
 
-/* Responsive Design: Stacking for smaller screens */
 @media (max-width: 768px) {
   .contact-message-container {
     flex-direction: column;
@@ -508,7 +505,7 @@ textarea {
   }
 
   .message-box, .contact-info-box {
-    max-width: 100%; /* Allow sections to take full width */
+    max-width: 100%;
     margin-bottom: 20px;
   }
 }
@@ -596,6 +593,7 @@ footer {
   }
 
 }
+
 
 
 
