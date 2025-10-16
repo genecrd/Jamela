@@ -275,7 +275,7 @@ label {
 
 .progress-bar {
   height: 20px;
-  background-color: #4CAF50;
+  background-color: #4CAF50; 
   border-radius: 8px;
 }
 
@@ -287,11 +287,11 @@ label {
 }
 
 #html {
-  background-color: #E44D26;
+  background-color: #E44D26; 
 }
 
 #css {
-  background-color: #1572B6;
+  background-color: #1572B6; 
 }
 
 #python {
@@ -303,7 +303,7 @@ label {
 }
 
 #listening {
-  background-color: #FFA500; 
+  background-color: #FFA500;
 }
 
 #communication {
@@ -393,7 +393,6 @@ label {
   margin: 0 auto;
 }
 
-/* Contact Information Section */
 .contact-info-box {
   flex: 1;
   padding: 20px;
@@ -401,7 +400,6 @@ label {
   box-shadow: none;
 }
 
-/* Contact Items */
 .contact-item {
   margin-bottom: 2rem;
 }
@@ -418,6 +416,7 @@ label {
   font-size: 1.1rem;
 }
 
+/* Message Box Styling */
 .message-box {
   flex: 1;
   padding: 20px;
@@ -505,7 +504,7 @@ textarea {
   }
 
   .message-box, .contact-info-box {
-    max-width: 100%;
+    max-width: 100%; 
     margin-bottom: 20px;
   }
 }
@@ -591,9 +590,4 @@ footer {
     display: flex;
     justify-content: center;
   }
-
 }
-
-
-
-
